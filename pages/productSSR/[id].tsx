@@ -32,6 +32,7 @@ export default function ProductDetails({
 }: InferGetServerSidePropsType<typeof getServerSideProps>) {
     return (
         <div className="container mx-auto p-6">
+            <h2 className="text-2xl font-bold text-center mb-4">SSR Example</h2>
             <h2 className="text-2xl font-bold text-center mb-4">Product Details</h2>
             <div className="max-w-md mx-auto p-6 border rounded-lg shadow-lg">
                 <h3 className="text-lg font-bold">{product.title}</h3>

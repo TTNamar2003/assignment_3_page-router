@@ -42,6 +42,7 @@ export default function PostDetails({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <div className="max-w-2xl mx-auto p-6">
+      <h3 className="font-bold">example of SSG + revalidate every 60 second (ISR)</h3>
       <h1 className="text-2xl font-bold">{post.title}</h1>
       <p className="mt-4 text-gray-600">Views: {post.views}</p>
     </div>
